@@ -1,0 +1,33 @@
+$color1: white;
+$color2: black;
+
+.Buttons_L {
+    margin: auto 10px;
+                
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 200px;
+    height: 70px;
+    
+    border: 1px $color1 solid;
+    
+    text-decoration: none;
+    text-align: center;
+
+    color: $color1;
+    font-size: 1.2em;
+
+    transition-property: background-color color font-weight;
+    transition-duration: 0.3s;
+
+    cursor: pointer;
+}
+
+.Buttons_L:hover {
+    background-color: $color1;
+    color: $color2;
+
+    font-weight: bold;
+}

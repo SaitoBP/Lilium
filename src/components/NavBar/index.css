@@ -1,0 +1,35 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: auto 1.5%;
+  padding: 0.2%;
+  animation: nav-fade-in 1s; }
+
+@keyframes nav-fade-in {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 100%s; } }
+
+header a {
+  text-decoration: none;
+  color: white;
+  font-size: 35px;
+  font-weight: 200; }
+
+header nav ul {
+  list-style: none;
+  top: 1%;
+  display: flex;
+  flex-flow: row; }
+
+header nav ul li {
+  float: left;
+  margin: 10px;
+  color: white;
+  font-weight: 400;
+  font-size: 15px;
+  cursor: pointer; }
+
+header nav ul li:hover {
+  border-bottom: solid white 1px; }

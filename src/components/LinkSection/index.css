@@ -1,0 +1,28 @@
+.links {
+  margin: 0.3%;
+  display: grid;
+  grid-template-columns: 55% auto;
+  grid-template-rows: 65vh 65vh;
+  gap: 0.3%; }
+
+.links div {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.links .link1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../../img/placeholders/clothes_PH_1.webp");
+  background-size: cover;
+  background-position: center; }
+
+.links .link2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../../img/placeholders/clothes_PH_2.webp");
+  background-size: cover;
+  background-position: center; }
+
+.links .link3 {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../../img/placeholders/clothes_PH_3.webp");
+  background-size: cover;
+  background-position: center;
+  grid-row: 1 / span 2;
+  grid-column: 2; }

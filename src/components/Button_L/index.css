@@ -1,0 +1,20 @@
+.Buttons_L {
+  margin: auto 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 70px;
+  border: 1px white solid;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  font-size: 1.2em;
+  transition-property: background-color color font-weight;
+  transition-duration: 0.3s;
+  cursor: pointer; }
+
+.Buttons_L:hover {
+  background-color: white;
+  color: black;
+  font-weight: bold; }
