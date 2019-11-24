@@ -6,7 +6,7 @@ import LinkSection from "../../components/LinkSection"
 import AboutContainer from "../../components/AboutContainer"
 import Flickity_Carousel from "../../components/Flickity_Carousel"
 
-import "./landingPage.css"
+import "./LandingPage.css"
 import arrow from "../../img/svg/arrow_down.svg"
 
 function LandingPage() {
@@ -37,7 +37,7 @@ function LandingPage() {
                 <AboutContainer title="NOSSA MISSÃO" />
                 <AboutContainer title="NOSSO IMPACTO" />
             </div>
-
+            
             <Flickity_Carousel />
         </section>
     );

@@ -1,5 +1,7 @@
 import React from "react";
 
+import "./index.css"
+
 function AboutContainer(props) {
     return (
         <div className="about-container">

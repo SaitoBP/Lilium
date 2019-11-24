@@ -1,7 +1,7 @@
 $color1: white;
 $color2: #23272B;
 
-nav {    
+.NavBarDash {    
     display: flex;
     align-items: center;
     flex-flow: column;
@@ -11,11 +11,12 @@ nav {
     
     background-color: #1f1f1f;
     
-    a {
+    h1 {
         margin-top: 5%;
         text-decoration: none;
         font-size: 3em;
         color: $color1;
+        font-weight: 100;
     }
     
     span {color: $color1}

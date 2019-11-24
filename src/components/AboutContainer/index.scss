@@ -1,0 +1,29 @@
+$color1: white;
+
+.about-container {
+    display: flex;
+    justify-content: center;
+    
+    width: 30vw;
+    height: 60%;
+    
+    margin: 3%;
+
+    background-color: rgba(0, 0, 0, 0.70);
+
+    .about-content {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: center;
+
+        text-align: center;
+        padding: 5%;
+
+        color: $color1;
+
+        h1 {
+            margin-bottom: 5%;
+        }
+    }
+}

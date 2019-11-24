@@ -80,7 +80,7 @@ body {
 }
 
 .about {
-    margin-top: 0.3%;
+    margin-top: 0.5%;
     height: 100vh;
     background:
         linear-gradient(
@@ -94,32 +94,4 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-
-    .about-container {
-        display: flex;
-        justify-content: center;
-        
-        width: 30vw;
-        height: 60%;
-        
-        margin: 3%;
-
-        background-color: rgba(0, 0, 0, 0.70);
-
-        .about-content {
-            display: flex;
-            flex-flow: column;
-            align-items: center;
-            justify-content: center;
-
-            text-align: center;
-            padding: 5%;
-
-            color: $color1;
-
-            h1 {
-                margin-bottom: 5%;
-            }
-        }
-    }
 }

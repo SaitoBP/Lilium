@@ -16,7 +16,9 @@ import Img8 from "../../img/history/gallery_8.webp"
 
 const flickityOptions = {
     wrapAround: true,
-    cellAlign: "center"
+    cellAlign: "center",
+    draggable: false,
+    pageDots: false
 }
 
 function Flickity_Carousel() {

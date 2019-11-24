@@ -3,6 +3,6 @@ import ReactDOM from 'react-dom';
 
 import "./base.css"
 
-import LandingPage from "./pages/landingPage/landingPage"
+import Pages from "./pages/Pages"
 
-ReactDOM.render(<LandingPage />, document.getElementById('root'));
+ReactDOM.render(<Pages />, document.getElementById('root'));

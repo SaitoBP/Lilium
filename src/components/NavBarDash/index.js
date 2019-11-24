@@ -4,8 +4,8 @@ import "./index.css"
 
 function NavBarDash() {
     return (
-        <nav>
-            <a href="../public/index.html">LILIUM</a>
+        <nav className="NavBarDash">
+            <h1>LILIUM</h1>
             <span>Dashboard</span>
 
             <ul>
