@@ -1,15 +1,15 @@
 import React from "react"
 
-import Button_L from "../Button_L"
+import ButtonL from "../ButtonL"
 
-import "./index.css"
+import "./index.scss"
 
 function LinkSection() {
     return (
         <section className="links">
-            <div className="link1"><Button_L name="DESTAQUE"/></div>
-            <div className="link2"><Button_L name="PESSOAS"/></div>
-            <div className="link3"><Button_L name="DESCONTOS"/></div>
+            <div className="link1"><ButtonL name="DESTAQUE"/></div>
+            <div className="link2"><ButtonL name="PESSOAS"/></div>
+            <div className="link3"><ButtonL name="DESCONTOS"/></div>
         </section>
     );
 }

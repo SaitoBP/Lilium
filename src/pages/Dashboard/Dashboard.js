@@ -1,13 +1,13 @@
 import React from "react";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { Switch, Route } from "react-router-dom";
 
-import "./Dashboard.css";
+import "./Dashboard.scss";
 
 import NavBarDash from "../../components/NavBarDash";
-import NewPiece from "../../components/NewPiece";
+import AddPiece from "../../components/AddPiece";
 import AddFeatured from "../../components/AddFeatured";
 import AddPromo from "../../components/AddPromo";
-import  Config from "../../components/ConfigPage"
+import Config from "../../components/ConfigPage"
 
 class Dashboard extends React.Component {
     render() {
@@ -16,7 +16,7 @@ class Dashboard extends React.Component {
                 <NavBarDash />
                 <aside id="Dashboard-Panels">
                     <Switch>
-                        <Route path="/dashboard/addPiece/" component={NewPiece} />
+                        <Route path="/dashboard/addPiece/" component={AddPiece} />
                         <Route path="/dashboard/addFeatured/" component={AddFeatured} />
                         <Route path="/dashboard/addPromo/" component={AddPromo} />
                         <Route path="/dashboard/config/" component={Config} />

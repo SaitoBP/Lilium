@@ -1,12 +1,12 @@
 import React from 'react';
 
 import NavBar from "../../components/NavBar"
-import Button_M from "../../components/Button_M"
+import ButtonM from "../../components/ButtonM"
 import LinkSection from "../../components/LinkSection"
 import AboutContainer from "../../components/AboutContainer"
-import Flickity_Carousel from "../../components/Flickity_Carousel"
+import FlickityCarousel from "../../components/FlickityCarousel"
 
-import "./LandingPage.css"
+import "./LandingPage.scss"
 import arrow from "../../img/svg/arrow_down.svg"
 
 function LandingPage() {
@@ -20,8 +20,8 @@ function LandingPage() {
                     <h1 id="displayName">LILIUM BRECHÓ</h1>
 
                     <div id="center-buttons">
-                        <Button_M name="COMPRE JÁ" />
-                        <Button_M name="SAIBA MAIS" />
+                        <ButtonM name="COMPRE JÁ" />
+                        <ButtonM name="SAIBA MAIS" />
                     </div>
                 </div>
 
@@ -38,7 +38,7 @@ function LandingPage() {
                 <AboutContainer title="NOSSO IMPACTO" />
             </div>
             
-            <Flickity_Carousel />
+            <FlickityCarousel />
         </section>
     );
 }

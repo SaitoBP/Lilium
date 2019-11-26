@@ -2,7 +2,7 @@ import React from "react";
 import Flickity from "react-flickity-component";
 
 import "./default/flickity.css"
-import "./index.css"
+import "./index.scss"
 
 import Img1 from "../../img/history/gallery_1.webp"
 import Img2 from "../../img/history/gallery_2.webp"
