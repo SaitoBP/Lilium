@@ -1,18 +1,22 @@
-import React from "react"
+import React from "react";
+import {Link} from "react-router-dom";
 
-import "./index.css"
+import "./index.css";
 
 function NavBar() {
+    const linkStyle = { textDecoration: "none" }
+
     return (
         <header>
-            <a href="index.html">LILIUM</a>
+            <Link style={linkStyle} to="/"><h1>LILIUM</h1></Link>
+            
             <nav>
                 <ul>
-                    <li>HOME</li>
+                    <Link style={linkStyle} to="/"><li>HOME</li></Link>
                     <li>LOJA</li>
                     <li>HISTORIAS</li>
                     <li>CARRINHO(0)</li>
-                    <li>LOGIN</li>
+                    <Link style={linkStyle} to="/dashboard"><li>LOGIN</li></Link>
                 </ul>
             </nav>
         </header>

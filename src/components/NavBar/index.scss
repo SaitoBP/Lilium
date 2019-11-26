@@ -12,11 +12,12 @@ header {
         100% {opacity: 100%s;}
     }
     
-    a {
+    h1 {
         text-decoration: none;
         color: $color;
         font-size: 35px;
         font-weight: 200;
+        cursor: pointer;
     }
 
     nav {
