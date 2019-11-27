@@ -7,7 +7,7 @@ import NavBarDash from "../../components/NavBarDash";
 import AddPiece from "../../components/AddPiece";
 import AddFeatured from "../../components/AddFeatured";
 import AddPromo from "../../components/AddPromo";
-import Config from "../../components/ConfigPage"
+import Analytics from "../../components/Analytics"
 
 class Dashboard extends React.Component {
     render() {
@@ -19,7 +19,7 @@ class Dashboard extends React.Component {
                         <Route path="/dashboard/addPiece/" component={AddPiece} />
                         <Route path="/dashboard/addFeatured/" component={AddFeatured} />
                         <Route path="/dashboard/addPromo/" component={AddPromo} />
-                        <Route path="/dashboard/config/" component={Config} />
+                        <Route path="/dashboard/analytics/" component={Analytics} />
                     </Switch>
                 </aside>
             </main>
