@@ -16,7 +16,7 @@ export default function Cart() {
             <p>Total:R$110,00</p>
         </div>
         <div className="End">
-            <a href="index.html">Cancelar</a>
+            <a href="/">Cancelar</a>
             <input type="button" value="Finalizar" />
         </div>
     </div>

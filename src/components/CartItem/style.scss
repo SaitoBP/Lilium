@@ -19,6 +19,7 @@ padding: 20px;
     }
     p{
     padding-top: 05px;
+    margin-right: 10px;
     text-align: center;
     }
 }
@@ -27,7 +28,7 @@ padding: 20px;
     display: flex;
     flex-direction:row;
     p{
-        margin-top: 80px;
+        margin-top: 100px;
         padding-right: 50px;
     }
 }
@@ -36,21 +37,23 @@ padding: 20px;
     display: flex;
     align-items:flex-end;
     a{
-    margin-bottom:10px;
+    margin-bottom:15px;
     margin-right: 20px;
     text-decoration: none;
     color: red;
+    font-size: 16px;
     }
 
     input{
-    margin-bottom:10px;
-    background-color: #4CAF50;
+    margin-bottom:9px;
+    background-color: white;
     border: none;
-    color: white;
+    color: #4CAF50;
     padding: 5px 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
+    font-size: 16px;
     
     }
 }
