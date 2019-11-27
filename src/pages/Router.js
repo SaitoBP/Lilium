@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 import LandingPage from "./LandingPage/LandingPage";
 import Dashboard from "./Dashboard/Dashboard";
-import Cart from "./Kart/Kart";
+import Cart from "./Cart/Cart";
 
 function Pages() {
     return (
