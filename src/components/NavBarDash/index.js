@@ -16,7 +16,7 @@ class NavBarDash extends React.Component {
                     <Link style={linkStyle} to="/dashboard/addPiece/"><li>ADICIONAR PEÇA</li></Link>
                     <Link style={linkStyle} to="/dashboard/addFeatured/"><li>ADICIONAR DESTAQUE</li></Link>
                     <Link style={linkStyle} to="/dashboard/addPromo/"><li>ADICIONAR PROMOÇÃO</li></Link>
-                    <Link style={linkStyle} to="/dashboard/config/"><li>CONFIGURAÇÕES</li></Link>
+                    <Link style={linkStyle} to="/dashboard/analytics/"><li>HISTÓRICO</li></Link>
                     <Link style={linkStyle} to="/"><li>SAIR</li></Link>
                 </ul>
             </nav>

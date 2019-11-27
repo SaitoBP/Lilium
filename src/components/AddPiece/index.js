@@ -1,6 +1,8 @@
 import React from "react";
 
-import "./index.css"
+import ButtonL from "../ButtonL"
+
+import "./index.scss"
 
 class NewPiece extends React.Component {
     render() {
@@ -8,16 +10,17 @@ class NewPiece extends React.Component {
             <section className="product-content">
                 <input type="text" name="productName" id="ProductName" placeholder="NOME DA PEÇA" />
                 <textarea name="productDescription" id="ProductDescription" placeholder="Descrição.."></textarea>
-                <section id="ProductPics">
-                    <div className="ProductPic"></div>
-                    <div className="ProductPic"></div>
-                    <div className="ProductPic"></div>
-                    <div className="ProductPic"></div>
+                <div className="ProductPic">CLIQUE AQUI PARA ADICIONAR UMA FOTO</div>
+
+                <section id="ProductMenu">
+                    <div className="ProductBtn">PREÇO</div>
+                    <div className="ProductBtn">TAMANHO</div>
+                    <div className="ProductBtn">COR</div>
                 </section>
-                <section id="ProductDetails">
-                    <div className="ProductDetail"></div>
-                    <div className="ProductDetail"></div>
-                    <div className="ProductDetail"></div>
+
+                <section id="Btn">
+                    <ButtonL id="Confirm" name="CONFIRMAR"/>
+                    <ButtonL id="Cancel" name="CANCELAR"/>
                 </section>
             </section>
         );
