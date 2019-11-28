@@ -1,0 +1,103 @@
+@keyframes teste {
+  0% {
+    width: 0px;
+  }
+
+  15% {
+    width: 50px;
+  }
+
+  25% {
+    width: 75px;
+  }
+
+  50% {
+    width: 150px;
+  }
+
+  65% {
+    width: 175px;
+  }
+
+  75% {
+    width: 225px;
+  }
+
+  100% {
+    width: 300px;
+  }
+}
+
+.login-box {
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+    position: fixed;
+    right: 0;
+    top: 0;
+  
+    .login-form {
+      width: 400px;
+      height: 100vh;
+      display: flex;
+      padding-left: 20px;
+      justify-content: flex-start;
+      align-items: center;
+      background: #ffffff;
+  
+      -webkit-animation-name: teste;
+      -webkit-animation-duration: 0.35s;
+  
+      .user-login {
+        p {
+          padding: 0%;
+          margin: 0%;
+        }
+        input {
+          border: none;
+          border-bottom: 2px solid #c1c1c1;
+          padding: 12px 80px;
+        }
+      }
+      .password {
+        p {
+          padding: 0%;
+          margin: 0%;
+          padding-top: 10%;
+        }
+  
+        input {
+          border: none;
+          border-bottom: 2px solid #c1c1c1;
+          padding: 12px 80px;
+        }
+      }
+  
+      .login-button {
+        display: flex;
+        justify-content: flex-start;
+        padding-top: 20%;
+  
+        .register{
+          padding-top: 15px;  
+          padding-right: 145px;
+          color: #a27624;
+          text-decoration: none;
+          font-size: 20px;    
+        }
+  
+        button {
+          background-color: #6f4f3a;
+          border: none;
+          color: white;
+          padding: 16px 32px;
+          margin: 4px 2px;
+          cursor: pointer;
+        }
+  
+        button:active {
+          background-color: #c1c1c1;
+        }
+      }
+    }
+  }
+  
