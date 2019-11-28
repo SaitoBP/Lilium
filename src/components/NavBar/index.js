@@ -15,8 +15,8 @@ function NavBar() {
                     <Link style={linkStyle} to="/"><li>HOME</li></Link>
                     <li>LOJA</li>
                     <li>HISTORIAS</li>
-                    <li>CARRINHO(0)</li>
-                    <Link style={linkStyle} to="/dashboard"><li>LOGIN</li></Link>
+                    <Link style={linkStyle} to="/cart"><li>CARRINHO(1)</li></Link>
+                    <Link style={linkStyle} to="/login"><li>LOGIN</li></Link>
                 </ul>
             </nav>
         </header>
