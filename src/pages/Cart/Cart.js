@@ -1,16 +1,20 @@
 import React from 'react';
-import '../Cart/Cart.scss';
+import './Cart.scss';
 import Helmet from 'react-helmet';
 
-import Navbar from '../../components/NavBar/index'
+import Logo from '../../components/Logo/index'
 import CartItem from '../../components/CartItem/index'
+import Summary from '../../components/Summary/index'
+import LineCart from '../../components/LineCart/index'
 
 export default function Cart() {
   return (
     <>
     <Helmet bodyAttributes={{style: 'background-color : black'}}/>
-        <Navbar/>
+        <Logo />
+        <LineCart />
         <CartItem />
+        <Summary />
     </>
   );
 

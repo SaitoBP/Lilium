@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+$color: #e48d1b;
+
+.container{
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    text-align: center;
+    background: #ffffff;
+    position: fixed;
+    width: 400px;
+    height: 100vh;
+    right: 0px;
+    top: 0;
+
+    .title{
+        margin: 50px;
+        font-size: 40px;
+        border-bottom: 2px solid #000;
+    }
+
+    .cep{
+        display: flex;
+        flex-direction:column;
+        font-size: 20px;  
+        border-bottom: 2px solid #000;
+        margin: 50px;
+        color: #e48d1b;
+        form{
+            margin-right: 50px;
+            margin-left: 50px;
+
+        }
+    }
+    
+    .cepNum{
+        width: 80%;
+        padding: 12px 20px;
+        margin: 8px 10px;
+        box-sizing: border-box;
+        border: none;
+        border-bottom: 2px solid #e48d1b;
+    }
+    
+    .button{                                
+        background-color: $color;
+        border: none;
+        color: white;
+        padding: 05px 16px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;    
+        margin-bottom: 60px;          
+    }
+
+    .valueTotal{
+        border-bottom: 2px solid #000;
+        margin: 50px;
+
+        div{
+            margin-bottom: 50px;
+        }
+    }
+
+
+        .buttonG{
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 10px 80px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;    
+            margin-top: 80px; 
+        }
+
+    
+}

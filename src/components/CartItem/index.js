@@ -12,12 +12,11 @@ export default function Cart() {
             <p>Conjunto de Roupas</p>
         </div>
         <div class="Value">
-            <p>Subtotal:R$100,00</p>
-            <p>Total:R$110,00</p>
+            <p>Valor: </p> 
+            <p>R$100,00</p>
         </div>
         <div className="End">
-            <a href="/">Cancelar</a>
-            <input type="button" value="Finalizar" />
+            <a href="/">Remover</a>
         </div>
     </div>
     </div>
