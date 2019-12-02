@@ -8,7 +8,7 @@ export default function Cart() {
     <header>
         <div>
             <nav>
-                <a href="index.html">LILIUM</a>
+                <a href="/">LILIUM</a>
             </nav>
         </div>
     </header>
