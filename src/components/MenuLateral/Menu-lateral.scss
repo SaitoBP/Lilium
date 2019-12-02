@@ -1,0 +1,61 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat|Open+Sans:300&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Oswald:200,300,400&display=swap);
+
+$ff-M: 'Montserrat', sans-serif;
+$ff-O: 'Oswald', sans-serif;
+@mixin Style { font-weight: 100;
+font-family: $ff-O;
+text-align: left;
+color: black;}
+
+.menu-lateral{
+  display: flex;
+  margin-top: 3%;
+  max-width: 200px;
+  
+  ul{
+    width: 150px;
+    padding: 10px;
+    padding-right: 5px;
+    text-align: left ;
+    border-right: 2px solid black;
+    flex-flow: column;
+    margin-left: 5vw;
+    list-style: none;
+    
+  }
+  ul li {
+    position: relative;
+    padding: 5px;
+  h2{
+    @include Style;
+    margin-left: -80px;
+    display: block;
+     font-size: 20px;
+    
+    
+  }
+  h1{
+    @include Style;
+    font-size: 25px;
+    &:hover{
+      text-decoration: underline;
+    }
+  }
+  a{
+    @include Style;
+    margin-left: -5px;
+    display: block;
+
+  }
+  }
+  li ul{ 
+    display: none
+  }
+  li:hover ul {
+    display: block;
+  }
+  ul ul{
+    border-right: none;
+  }
+ }

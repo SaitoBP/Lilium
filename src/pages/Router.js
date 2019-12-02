@@ -5,6 +5,8 @@ import LandingPage from "./LandingPage/LandingPage";
 import Dashboard from "./Dashboard/Dashboard";
 import Cart from "./Cart/Cart";
 import Login from "./Login/Login";
+import LojaTela from "./Loja/Loja";
+import Ofertas from "./Ofertas/Ofertas.js";
 
 function Pages() {
     return (
@@ -14,6 +16,9 @@ function Pages() {
                 <Route path="/dashboard" component={Dashboard} />
                 <Route path="/cart" component={Cart} />
                 <Route path="/login" component={Login} />
+                <Route path="/loja" component={LojaTela} />
+                <Route path="/ofertas" exact component={Ofertas}/>
+            
             </Switch>
         </Router>
     );

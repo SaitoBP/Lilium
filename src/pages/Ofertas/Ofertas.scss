@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+$ff-M: 'Montserrat', sans-serif;
+@mixin frase {
+    text-align: center;
+    margin-top: 13%;
+
+    font-family: $ff-M;
+    text-transform: uppercase;
+    font-size: 32px;
+    font-weight: 300;
+    color: white;    
+}
+.Ofertas{
+    width: 100vw;
+    height: 46vw;
+    background: 
+    linear-gradient(
+        rgba(10, 10, 10, .5),
+        rgba(10, 10, 10, .5) 
+    ),
+    url("../../img/galeria/primavera-flor-rosa.webp");
+    background-size: cover;
+    background-attachment: fixed;
+
+    .frase{
+        @include frase;
+
+        &:hover {
+            animation: animation 3s;
+            will-change: color;
+        }
+    }
+}
+@keyframes animation{
+    to {
+        color: blueviolet; /*mudar essa cor*/
+    } 
+}

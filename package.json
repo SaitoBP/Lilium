@@ -9,7 +9,8 @@
     "react-flickity-component": "^3.4.0",
     "react-helmet": "^5.2.1",
     "react-router-dom": "^5.1.2",
-    "react-scripts": "3.2.0"
+    "react-scripts": "3.2.0",
+    "react-typist": "^2.0.5"
   },
   "scripts": {
     "start": "react-scripts start",

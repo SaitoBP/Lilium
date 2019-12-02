@@ -1,0 +1,52 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:200,300,400&display=swap);
+$ff-O: 'Oswald', sans-serif;
+
+.linha{
+    margin-top: -13%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    position: absolute;
+    flex-direction: row;
+    margin-left: 230px;
+
+    .roupa{
+        display: flex;
+        justify-content: center;
+        width: 1000px; 
+    }
+    .coluna{
+        flex: 25%;
+        max-width: 25%;
+        padding: 0 20px;
+        position: relative;
+        img{
+            vertical-align: middle;
+            margin: 10px;
+        }
+        .preco{
+            font-size: 1.5vw;
+            font-family: $ff-O;
+            font-weight: 200;
+            position: absolute;
+            background-color: rgba(222, 218, 207, .8);
+            text-align: center;
+            margin-top: -40px;
+            margin-left: 10px;
+            width: 250px;
+            
+            &:hover{
+            animation: bgColor 2s;
+            will-change: background-color;
+            }
+
+        }
+    }
+}
+@keyframes bgColor{
+    to{
+        background-color: rgba(112, 112, 112, .8);
+
+    }
+
+}

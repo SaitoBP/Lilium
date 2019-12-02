@@ -13,7 +13,7 @@ function NavBar() {
             <nav>
                 <ul>
                     <Link style={linkStyle} to="/"><li>HOME</li></Link>
-                    <li>LOJA</li>
+                    <Link style={linkStyle} to="/loja"><li>LOJA</li></Link>
                     <li>HISTORIAS</li>
                     <Link style={linkStyle} to="/cart"><li>CARRINHO(1)</li></Link>
                     <Link style={linkStyle} to="/login"><li>LOGIN</li></Link>
