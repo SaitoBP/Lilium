@@ -5,7 +5,7 @@ $color: #e48d1b;
     font-family: "Montserrat", sans-serif;
     font-size: 15px;
     text-align: center;
-    background: #ffffff;
+    background: white;
     position: fixed;
     width: 400px;
     height: 100vh;
@@ -39,6 +39,7 @@ $color: #e48d1b;
         margin: 8px 10px;
         box-sizing: border-box;
         border: none;
+        background-color: white;
         border-bottom: 2px solid #e48d1b;
     }
     

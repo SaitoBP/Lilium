@@ -10,7 +10,7 @@ import LineCart from '../../components/LineCart/index'
 export default function Cart() {
   return (
     <>
-    <Helmet bodyAttributes={{style: 'background-color : black'}}/>
+    <Helmet bodyAttributes={{style: 'background-color : #e8e8e8'}}/>
         <Logo />
         <LineCart />
         <CartItem />
