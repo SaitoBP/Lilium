@@ -1,6 +1,6 @@
 import React from 'react';
 import './Menu-lateral.scss';
-// import { NONAME } from 'dns';
+import {Link} from "react-router-dom";
 
 function MenuLateral() {
   const Style = {
@@ -31,7 +31,7 @@ function MenuLateral() {
             <li><h2 style={Style}> Shorts</h2></li>
           </ul>
           </li>
-          <li ><h1><a href="/ " style={Style}>Ofertas</a></h1></li>
+          <li ><h1><Link style={Style} to="/Ofertas">Ofertas</Link></h1></li>
         </ul>
       </nav>
  

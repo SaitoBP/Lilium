@@ -17,26 +17,32 @@ $ff-O: 'Oswald', sans-serif;
     }
     .coluna{
         flex: 25%;
-        max-width: 25%;
+        max-width: 30%;
         padding: 0 20px;
         position: relative;
         img{
             vertical-align: middle;
-            margin: 10px;
+            margin: 5px;
+            filter: opacity(80%);
+
+            &:hover{
+                filter: none;
+            }
         }
         .preco{
             font-size: 1.5vw;
             font-family: $ff-O;
             font-weight: 200;
             position: absolute;
-            background-color: rgba(222, 218, 207, .8);
+            background-color: rgba(243, 185, 60, .8);
             text-align: center;
-            margin-top: -40px;
-            margin-left: 10px;
-            width: 250px;
-            
+            margin-top: -35px;
+            margin-left: 5px;
+            width: 294px;
+            color: white;
+
             &:hover{
-            animation: bgColor 2s;
+            animation: bgColor 1.5s;
             will-change: background-color;
             }
 

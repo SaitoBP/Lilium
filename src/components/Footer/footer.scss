@@ -1,0 +1,22 @@
+.rodape{
+    
+    height: 130px;
+    margin-top: 800px;
+    background: #dec3b0;
+
+    &:hover{
+        background: #fbe7d9;
+        transition: 1s;
+    }
+    ul{
+        padding-top: 5px;
+    }
+    li{
+        
+        text-align: center;
+        padding: 5px;
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+}

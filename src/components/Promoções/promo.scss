@@ -1,0 +1,65 @@
+.slider{
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    margin: auto;
+    position: relative;
+    
+    
+    li{
+        list-style: none;
+        position: absolute;
+    }
+    li .img1{
+        background:
+    linear-gradient(
+        rgba(10, 10, 10, .4),
+        rgba(10, 10, 10, .4)
+        ),
+        url("../../img/galeria/img18.webp");
+    background-size: cover;
+    background-attachment: fixed;
+    }
+
+    img{
+        margin: auto;
+        width: 100vw;
+        height: 100vh;
+        vertical-align: top;
+        opacity: 0;
+        visibility: hidden;
+        filter: grayscale(20%);
+        
+        
+    }
+    li input:checked ~ .img1{
+        opacity: 1;
+        visibility: visible;
+        z-index: 15;
+    }
+
+    input{
+        display: none;
+    }
+
+    label{
+        background-color: white;
+        cursor: pointer;
+        display: block;
+        height: 2px;
+        width: 35px;
+        border-radius: 20%;
+        position: absolute;
+        z-index: 10;
+        bottom: 30px;
+    }
+    li:nth-child(1) label{
+        left: 600px;
+    }
+    li:nth-child(2) label{
+        left: 700px;
+    }
+    li:nth-child(3) label{
+        left: 800px;
+    }
+}

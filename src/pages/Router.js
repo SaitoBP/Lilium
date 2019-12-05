@@ -8,6 +8,7 @@ import Login from "./Login/Login";
 import LojaTela from "./Loja/Loja";
 import Ofertas from "./Ofertas/Ofertas.js";
 
+
 function Pages() {
     return (
         <Router>
@@ -17,7 +18,7 @@ function Pages() {
                 <Route path="/cart" component={Cart} />
                 <Route path="/login" component={Login} />
                 <Route path="/loja" component={LojaTela} />
-                <Route path="/ofertas" exact component={Ofertas}/>
+                <Route path="/Ofertas" exact component={Ofertas}/>
             
             </Switch>
         </Router>

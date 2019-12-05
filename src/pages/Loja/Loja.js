@@ -3,6 +3,7 @@ import Typist from 'react-typist';
 import NavBar from '../../components/NavBar/index.js'
 import MenuLateral from '../../components/MenuLateral/Menu-lateral'
 import Galeria from '../../components/Galeria/Galeria.js'
+import Footer from '../../components/Footer/footer.js'
 import './Loja.scss'
 
 export default function LojaTela() {
@@ -19,6 +20,7 @@ export default function LojaTela() {
            
         <MenuLateral/>
         <Galeria/>
+        <Footer/>
         </>
     )
 }
