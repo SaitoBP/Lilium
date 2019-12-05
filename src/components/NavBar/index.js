@@ -2,6 +2,7 @@ import React from "react";
 import {Link} from "react-router-dom";
 
 import "./index.scss";
+import bag from "../../img/svg/shopping_bag.svg";
 
 function NavBar() {
     const linkStyle = { textDecoration: "none" }
